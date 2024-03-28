@@ -11,6 +11,7 @@ Pretty simple. Download the code as a zip and place it into the datapacks folder
 # Guide
 ## Admin
 > You need operator to start the game. Or sufficient permissions for /team and /function, I guess.
+
 As soon as you enter, it should automatically set up. However, I reccomend reloading the server (/reload) just to prevent any issues. Aditionally, check if it is enabled by doing /datapack list.
 If it isn't enabled, enable it (of course). You can also do /function game:load to set everything up quickly.
 
