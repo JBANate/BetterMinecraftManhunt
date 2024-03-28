@@ -1,5 +1,4 @@
 scoreboard players set @a CountdownActive 0
-scoreboard players set @a[team=Hunters] UseCount 3
 bossbar set minecraft:countdown visible false
 worldborder set 200000 1
 gamemode survival @a[team=Hunters]

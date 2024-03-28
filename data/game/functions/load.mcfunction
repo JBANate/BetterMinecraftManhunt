@@ -20,7 +20,6 @@ scoreboard players set @a CountdownActive 0
 scoreboard objectives add tp trigger
 scoreboard players set @a tp 0
 
-
 bossbar add countdown "Preparation Phase Countdown"
 bossbar set minecraft:countdown color red
 bossbar set minecraft:countdown max 900
