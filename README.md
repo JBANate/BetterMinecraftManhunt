@@ -62,4 +62,6 @@ Spectators
 That's it for now :)
 
 # Customisation
-Currently, the only way to customise is by changing the actual code of the datapack. No, I don't plan to add a configuration system as I made this for me and my friends to use. Besides, you might be able to change the correct lines if you're already hosting a server.. unless you're using a hosting service..
+Currently, the only way to customise is by [changing the actual code of the datapack](https://github.com/JBANate/BetterMinecraftManhunt/wiki). No, I don't plan to add a configuration system as I made this for me and my friends to use. Besides, you might be able to change the correct lines if you're already hosting a server.. unless you're using a hosting service..
+
+
