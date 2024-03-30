@@ -5,7 +5,7 @@ scoreboard players set @a DeathCount 0
 scoreboard objectives modify DeathCount displayname "Death counter"
 
 scoreboard objectives add UseCount dummy
-scoreboard players set @a UseCount 3
+scoreboard players set @a UseCount 4
 scoreboard objectives modify UseCount displayname "Teleport uses left"
 
 scoreboard objectives add 5s dummy

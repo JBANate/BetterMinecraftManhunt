@@ -22,5 +22,8 @@ item replace entity @a[team=Hunters] hotbar.4 with minecraft:oak_planks 16
 # item replace entity @a[team=Hunters] inventory.1 with cobblestone 16
 # item replace entity @a[team=Hunters] inventory.2 with iron_ingot 2
 
+effect give @a[team=Runners] glowing 10 0 true
+effect give @a[team=Hunters] glowing 10 0 true
+
 scoreboard players set @a[team=Runners] DeathCount 0
 scoreboard players set @a[team=Hunters] UseCount 4
