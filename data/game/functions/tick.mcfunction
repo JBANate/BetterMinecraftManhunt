@@ -27,5 +27,5 @@ execute store result bossbar minecraft:countdown value run scoreboard players ge
 # effect give @a[team=Hunters] minecraft:glowing 1 0 true
 # effect give @a[team=Runners] minecraft:glowing 1 0 true
 
-execute as @a[team=Runners] at @s if entity @a[team=Hunters,distance=..50] run title @s[team=Runners] actionbar {"text": "There are hunters near you!", "color": "yellow"}
-execute as @a[team=Hunters] at @s if entity @a[team=Runners,distance=..50] run title @s[team=Hunters] actionbar {"text": "You are near one or more runners!", "color": "yellow"}
+execute as @a[team=Runners] as @s at @s if entity @a[team=Hunters,distance=..50] run title @s[team=Runners] actionbar {"text": "There are hunters near you!", "color": "yellow"}
+execute as @a[team=Hunters] as @s at @s if entity @a[team=Runners,distance=..50] run title @s[team=Hunters] actionbar {"text": "You are near one or more runners!", "color": "yellow"}

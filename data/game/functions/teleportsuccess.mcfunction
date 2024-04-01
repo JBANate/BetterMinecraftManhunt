@@ -10,5 +10,5 @@ effect give @s slowness 2 1 true
 effect give @s mining_fatigue 2 1 true
 effect give @s weakness 2 1 true
 scoreboard players remove @s UseCount 1
-tellraw @a [{"text": "WARNING! ", "color": "red", "bold": true},{"text": "A hunter has used his ", "color": "yellow"}, {"text": "Teleport", "color": "blue"}, {"text": "ability!", "color": "yellow"}]
+tellraw @a [{"text": "WARNING! ", "color": "red", "bold": true},{"text": "A hunter has used his ", "color": "yellow"}, {"text": "Teleport", "color": "blue", "bold": false}, {"text": " ability!", "color": "yellow", "bold": false}]
 tag @a[team=Runners] remove Tagged
